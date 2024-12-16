@@ -12,3 +12,8 @@ Sample I/O:
 Sample o/p:
 {12: 34}
 '''
+key=int(input())
+value=int(input())
+di={}
+di[key]=value
+print(di)
