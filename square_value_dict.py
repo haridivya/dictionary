@@ -10,3 +10,12 @@ Sample I/O:
 Sample O/P:
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 '''
+class sample:
+    def m1(self,n):
+        di={}
+        for i in range(1,n+1):
+            di[i]=i**2
+        print(di)
+obj=sample()
+n=int(input())
+obj.m1(n)
