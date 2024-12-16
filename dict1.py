@@ -12,3 +12,14 @@ Enter key to check : A
 Sample Output :
 Key is present and value of the key is: 1
 '''
+class Dictionary:
+    def m1(self):
+        di={'A':1,'B':2,'C':3,'D':4}
+        a=di.keys()
+        user_value=input("enter a key:")
+        if user_value in a:
+            print("Key is present and value of the key is:",di[user_value])
+        else:
+            print("the key it is not present in the dictionary")
+obj=Dictionary()
+obj.m1()
