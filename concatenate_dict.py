@@ -8,3 +8,7 @@ Problem Solution:
 Sample Output:
 Concatenated dictionary is: {'A': 1, 'B': 2, 'C': 3}
 '''
+d1={'A':1,'B':2} 
+d2={'C':3}
+d1.update(d2)
+print(d1)
